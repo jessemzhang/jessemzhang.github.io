@@ -1,5 +1,12 @@
 # Build settings
 
+highlighter: pygments
+github: [Repository metadata]
+
+safe: true
+lsi: false
+source: your top-level directory
+
 markdown: kramdown
 permalink: pretty
 
