@@ -1,6 +1,6 @@
 # Build settings
 
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
 
 port: 8000
