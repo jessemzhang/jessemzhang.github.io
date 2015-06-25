@@ -1,42 +1,14 @@
 <section>
-
-  <h3 id="about-me">About Myself</h3>
-  
-  <div class="face-lockup">
+    <a name="aboutme"><h4>About Me</h4></a>
+    <div class="face-image" style="text-align: right">
+        <img src="/assets/img/face.png" class="myphoto">
+    </div>
     
-    <div class="face-img"></div>
+    <div class="blurb">
+      <p><strong>Hi, I'm Jesse. </strong> I'm currently a first year PhD student in electrical engineering at Stanford University. What you see here is me trying to learn how to make a website. I am going to fill this space with random gibberish until I can find time to put more meaningful content. I do this to make this paragraph look longer, giving me a sense of what it will look like. More content coming soon hopefully. Purple shoelaces running down dandelions. </p>
+    </div>
     
-    <div class="icon-pencil">{% include icons/icon-pencil.html %}</div>
-    <div class="icon-mouse">{% include icons/icon-mouse.html %}</div>
-    <div class="icon-browser">{% include icons/icon-browser.html %}</div>
-    <div class="icon-video">{% include icons/icon-video.html %}</div>
+    <div class="skills-interests">
     
-  </div>
-  
-  
-  <div class="blurb">
-    {{ site.data.settings.blurb | markdownify }}
-  </div>
-  
-  {% if site.data.settings.skills %}
-  
-  <div class="skill-lockup">
-
-    {% for skill in site.data.settings.skills %}
-
-      <div class="skill-unit">
-        <div class="skill-label">{{ skill.name }}</div>
-        <div class="skill-icons skill-{{ skill.value }}">
-          {% for i in (1..10) %}
-            <span></span>
-          {% endfor %}
-        </div>
-      </div>    
-
-    {% endfor %}
-    
-  </div>
-  
-  {% endif %}
-
+    </div>
 </section>
