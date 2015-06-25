@@ -5,7 +5,16 @@ permalink: pretty
 title: Jesse Zhang
 description: Student // Engineer
 
+bg-pic: tahoe.jpg
+face-pic: face.png
+blurb: <p><strong>Hi, I'm Jesse. </strong> I'm currently a first year PhD student in electrical engineering at Stanford University. What you see here is me trying to learn how to make a website. I am going to fill this space with random gibberish until I can find time to put more meaningful content. I do this to make this paragraph look longer, giving me a sense of what it will look like. More content coming soon hopefully. Purple shoelaces running down dandelions. </p>
 port: 8000
+
+menu:
+- {name: About Me, url: '#aboutme'}
+- {name: Former Projects, url: '#projects'}
+- {name: Experience, url: '#experience'}
+- {name: Contact, url: '#contact'}
 
 include: ['_includes/work']
 exclude: ['the_design.psd']
