@@ -46,5 +46,5 @@ projects:
 - {name: Identifying Neurons, folder: 'proj-3'}
 - {name: MTG Price Predictor, folder: 'proj-4'}
 - {name: Downhill Skier Game, folder: 'proj-5'}
-- {name: Active Noise Cancelling iPhone App, folder: 'proj-6'}
+- {name: Noise Cancelling iPhone App, folder: 'proj-6'}
 
