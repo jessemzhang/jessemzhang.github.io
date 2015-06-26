@@ -16,7 +16,6 @@
         overflow: hidden
             
         background:
-            // image: url(/assets/img/projects/proj-2/thumb.jpg)
             position: center center
             repeat: no-repeat
             size: cover
@@ -27,6 +26,9 @@
             background: fade-out($accent, 0.1)
             text-align: center
             +transition
+            +display(flex)
+            +align-items(center)
+            +justify-content(space-around)
             
             strong
                 display: block
