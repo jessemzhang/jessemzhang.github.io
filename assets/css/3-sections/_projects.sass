@@ -1,0 +1,42 @@
+.projects
+    background: #e5eaee
+    
+.jz-thumb-container
+    max-width: 960px
+    margin: 0px auto 
+    padding-bottom: 100px
+    +clearfix
+    
+    .jz-thumb-unit
+        display: block
+        width: 33%
+        float: left
+        position: relative
+        padding-top: 14%
+        overflow: hidden
+            
+        background:
+            // image: url(/assets/img/projects/proj-2/thumb.jpg)
+            position: center center
+            repeat: no-repeat
+            size: cover
+            
+        .jz-thumb-overlay
+            +position(absolute, 100% 0px null 0px)
+            height: 100%
+            background: fade-out($accent, 0.1)
+            text-align: center
+            +transition
+            
+            strong
+                display: block
+                padding: 20px
+                color: white
+                font-weight: 300
+                text-transform: uppercase
+                font-size: 24px
+            
+        &:hover .jz-thumb-overlay
+            +position(absolute, 0% 0px null 0px)
+            
+            
