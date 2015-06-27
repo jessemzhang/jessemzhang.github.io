@@ -1,0 +1,32 @@
+<section>
+    <h4 id="experience">Some Places I've Worked</h4>
+    
+    <div class="resume-container">
+        
+        
+        {% for job in site.jobs %}
+        
+        <div class="resume-section">
+            <div class="job-name">
+                <img src="/assets/img/experience/{{job.logo}}">
+            </div>
+            <div class="job-description">
+                <div class="job-dates">
+                    {{ job.dates }}
+                </div>
+                <br>
+                <div class="job-responsibilities">
+                    {{ job.description }}
+                </div>
+            </div>
+        </div>
+        
+        {% endfor %}
+        
+    </div>
+    
+    <div class="cv-download">
+        <a href="Jesse_Zhang_CV.pdf">Download full CV</a>
+    </div>
+    
+</section>
