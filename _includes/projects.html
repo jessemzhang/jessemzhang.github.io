@@ -1,18 +1,32 @@
-<section class="projects">
+<section class="alt-section section-projects">
 
     <h4 id="projects">Some Stuff I've Made</h4>
     
-    <div class="jz-thumb-container">
+    <div class="work-belt">
         
-        {% for project in site.projects %}
-        
-        <a href="" class="jz-thumb-unit" style="background-image: url(/assets/img/projects/{{ project.folder }}/thumb.jpg)">
-            <div class="jz-thumb-overlay">
-                <strong>{{ project.name }}</strong>
+        <div class="thumb-wrap">
+            <div class="jz-thumb-container">
+
+                {% for project in site.projects %}
+
+                <a class="jz-thumb-unit" data-folder="{{ project.folder }}" style="background-image: url(/assets/img/projects/{{ project.folder }}/thumb.jpg)">
+                    <div class="jz-thumb-overlay">
+                        <strong>{{ project.name }}</strong>
+                    </div>
+                </a>
+
+                {% endfor %}
+
             </div>
-        </a>
+        </div>
         
-        {% endfor %}
+        <div class="work-wrap">
+            <div class="work-container">
+                <div class="work-return">{% include icon-back.html %}</div>
+                <h5 class="project-title">Project 1</h5>
+                <div class="project-load"></div>
+            </div>
+        </div>
         
     </div>
     
