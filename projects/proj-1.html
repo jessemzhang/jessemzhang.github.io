@@ -1,1 +1,10 @@
-Swarm bots?? Coming soon!
+<p>In my junior year as an undergraduate, I became part of the first Tufts ECE class required to take EE 31: Junior Design, a design course carefully crafted by <a href="http://engineering.tufts.edu/ece/people/lasser.htm">Professor Ron Lasser</a>. During the 3-month spring semester, I worked with four of my peers in solving the course challenge: design two swarm-bots that can collaboratively detect three colored blobs on a pre-built arena under a given time limit. </p>
+
+<img src="assets/img/projects/proj-1/thumb.jpg" alt="Swarm Bots">
+
+<br><br>
+<p>After weeks of designing, building, and rebuilding, we finally had a working prototype. We equipped each of the two bots with subsystems for power distribution, motor control, collision detection, color detection, information display, and communication, all of which were connected using an Arduino Mega 2560. The communication system was by far the most time consuming and challenging to get right. Along with building separate circuits for transmitters and receivers, we designed a communication protocol that would allow the bots to efficiently speak to each other without draining large amounts of power. Due to a course constraint, the communication was done using infrared sensors, resulting in variables such as time of day affecting the communication performance. Although sleep and several IR LEDs were sacrificed along the way, we managed to get our bots to consistently relay information to each other by the end of the course. </p>
+
+<p>During testing, the wires in one of our bots popped out at the very beginning and the bot remained stationary for the remaining 2 minutes. Luckily, the other bot quickly found the three colored blobs and effectively communicated to the first bot that the task was complete. Check out the video we made advertising our work to prospective ECE students: </p>
+
+<iframe width="600px" height="337.5px" src="https://www.youtube.com/embed/RBzi6oeAIwU" frameborder="0" allowfullscreen></iframe>
