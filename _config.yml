@@ -48,7 +48,7 @@ port: 8000
 
 projects:
 - {name: Swarm Bots, folder: 'proj-1'}
-- {name: AM Radio Transmitter, folder: 'proj-2'}
+- {name: Transcript Compatibility Counts, folder: 'proj-2'}
 - {name: Identifying Neurons, folder: 'proj-3'}
 - {name: MTG Price Predictor, folder: 'proj-4'}
 - {name: Downhill Skier Game, folder: 'proj-5'}
