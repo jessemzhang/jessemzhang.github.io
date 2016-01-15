@@ -1,7 +1,7 @@
 <p><b>Fall 2015</b></p>
 
-<p><b>Technologies:</b> iPython, scikit-learn, networkx, Bash, AWS <br>
-<b>Key Words:</b> single-cell RNA-seq, equivalence classes, transcript compatibility counts, clustering </p>
+<p><b>Technologies:</b> iPython, scikit-learn, networkx, Bash, AWS, genomics tools <br>
+<b>Key Words:</b> single-cell RNA-seq, equivalence class, transcript compatibility count, clustering </p>
 
 <p>I recently had the pleasure of collaborating with <a href="http://www-scf.usc.edu/~ntranos/">Vasilis Ntranos</a>, <a href="http://web.stanford.edu/~gkamath/">Govinda Kamath</a>, <a href="https://math.berkeley.edu/~lpachter/">Lior Pachter</a>, and my advisor <a href="https://web.stanford.edu/~dntse/">David Tse</a> in developing a novel approach for clustering the cells in single-cell RNA-Seq datasets. Inspired by Lior's group's recently developed tool, <a href="https://github.com/pachterlab/kallisto">kallisto</a>, Vasilis, Govinda, and I generated feature vectors for cells based on transcript-compatibility counts rather than quantified gene abundances. The latter requires read alignment, a computationally costly approach especially as the number of reads scale with the increasing number of cells involved in single-cell RNA-Seq experiments. The former requires only pseudoalignment, or a very fast assignment of each read to a set of potential transcripts the read can come from using a k-mer hashing approach.</p>
     
