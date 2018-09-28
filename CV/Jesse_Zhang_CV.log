@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 MAY 2018 11:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 SEP 2018 12:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -647,19 +647,19 @@ Overfull \hbox (4.34274pt too wide) in alignment at lines 41--119
  []
 
 
-Overfull \hbox (4.34274pt too wide) in alignment at lines 119--188
+Overfull \hbox (4.34274pt too wide) in alignment at lines 119--199
  [] [] 
  []
 
 
-Overfull \hbox (4.34274pt too wide) in alignment at lines 188--238
+Overfull \hbox (4.34274pt too wide) in alignment at lines 199--241
  [] [] 
  []
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (4.34274pt too wide) in alignment at lines 238--261
+Overfull \hbox (4.34274pt too wide) in alignment at lines 241--266
  [] [] 
  []
 
@@ -667,9 +667,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.261 &
-        \\ [2]
-Overfull \hbox (4.34274pt too wide) in alignment at lines 261--266
+l.266 \end
+          {longtable} [2]
+Overfull \hbox (4.34274pt too wide) in alignment at lines 266--266
  [] [] 
  []
 
@@ -691,7 +691,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
 Here is how much of TeX's memory you used:
  6223 strings out of 492995
  91182 string characters out of 6132704
- 202467 words of memory out of 5000000
+ 201467 words of memory out of 5000000
  9729 multiletter control sequences out of 15000+600000
  8406 words of font info for 30 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -704,7 +704,7 @@ usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/l
 ocal/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Jesse_Zhang_CV.pdf (3 pages, 117592 bytes).
+Output written on Jesse_Zhang_CV.pdf (3 pages, 117288 bytes).
 PDF statistics:
  55 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
