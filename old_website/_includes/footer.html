@@ -1,0 +1,16 @@
+<footer id="footer" style="background-image: url(/assets/img/{{site.bg-pic}})">
+
+    
+    <div class="lockup">
+        <div class="content-wrap">
+            <nav>
+                {% for item in site.menu %}
+                    <a href="{{ item.url }}"> {{ item.name }} </a>
+                {% endfor %}
+            </nav>
+            <p class="copyright">All content copyright 2016. This website was made using a tutorial by <a href="https://www.youtube.com/user/DevTipsForDesigners">DevTips.</a></p>
+            
+        </div>
+    </div>
+    
+</footer>

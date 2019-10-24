@@ -1,0 +1,9 @@
+<header style="background-image: url(/assets/img/{{site.bg-pic}})" >
+    <nav>
+        {% for item in site.menu %}
+            <a href="{{ item.url }}"> {{ item.name }} </a>
+        {% endfor %}
+    </nav>
+    <h1><span>{{ site.title }}</h1></span>
+    <p class="kicker">{{ site.description }}</p>
+</header>

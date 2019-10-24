@@ -1,0 +1,66 @@
+# jemdoc: menu{MENU}{index.html}
+= Jesse M. Zhang
+
+~~~
+{}{img_left}{jz.jpg}{alt text}{300px}{300px}{}
+[http://ee.stanford.edu/ Department of Electrical Engineering]\n
+[http://stanford.edu/ Stanford University]\n
+Research Interests: Machine Learning \+ Genomics\n
+\[[https://scholar.google.com/citations?user=4jViXZgAAAAJ Google Scholar]\]
+\[[https://github.com/jessemzhang/ GitHub]\]
+\[[https://www.linkedin.com/in/jessemzhang LinkedIn]\]
+~~~
+
+== About Me
+
+As of June 3, 2019, I am building a startup with two friends, and we're based out of SF. Stay tuned. :)
+
+I recently finished my PhD in electrical engineering at Stanford University. While at Stanford, I was a member of [https://web.stanford.edu/~dntse/ David Tse]'s group, and my research revolved around analysis of single-cell RNA-Seq datasets and understanding deep learning models. During the winter 2016 and spring 2018 quarters, I helped design and teach a new Stanford course on [http://data-science-sequencing.github.io/ data science for high-throughput sequencing]. I have also had the privilege of working for some wonderful organizations during my graduate and undergraduate careers including [https://grail.com/ Grail], [http://www.bd.com/en-us/offerings/capabilities/genomics Cellular Research], [https://www.mc10inc.com/ MC10], [https://ll.mit.edu/ MIT Lincoln Laboratory], and [http://www.dana-farber.org/ Dana-Farber]. Please see my [http://stanford.edu/~jessez/Jesse_Zhang_CV.pdf CV] for more details.
+
+\[[https://www.dropbox.com/s/d58t51iwgqrvnwk/Stanford_PhD_Thesis.pdf?dl=0 Dissertation]\]\[[https://www.dropbox.com/s/yo3dzl21q7bjq0e/Stanford_PhD_Defense.MOV?dl=0 Defense]\]
+
+== Publications
+
+[https://arxiv.org/abs/1811.07457 Generalizable Adversarial Training via Spectral Normalization]\n
+Farzan Farnia\*, *Jesse M. Zhang*\*, David N. Tse\n
+\*equal contributors\n
+*International Conference on Learning Representations, 2019*\n
+\[[https://github.com/jessemzhang/dl_spectral_normalization Code]\]\[[https://www.dropbox.com/s/uswpaw8kucvg822/ICLR_2019_poster_final_2.pdf?dl=0 Poster]\]
+
+[https://www.biorxiv.org/content/10.1101/463265v2 Valid post-clustering differential analysis for single-cell RNA-Seq
+]\n
+*Jesse M. Zhang*, Govinda M. Kamath,  David N. Tse\n
+*Research in Computational Molecular Biology, 2019*\n
+\[[https://github.com/jessemzhang/tn_test Code]\]\[[https://docs.google.com/presentation/d/17MojldL849zDCbRs8P919oLdfjtQWSnN4CwHPD0avbA/edit?usp=sharing Slides]\]\[[https://www.dropbox.com/s/56rh4fk85vbirmv/tn_test_recomb_2019_talk.MOV?dl=0 Talk]\]
+
+[https://arxiv.org/abs/1710.02196 Porcupine Neural Networks: (Almost) All Local Optima are Global]\n
+Soheil Feizi, Hamid Javadi, *Jesse Zhang*, David Tse\n
+*Advances in Neural Information Processing Systems, 2018*\n
+\[[https://github.com/jessemzhang/porcupine_neural_networks Code]\]\[[https://www.dropbox.com/s/sr711gjl8qw9qyk/NIPS_2018_PNN_v2.pdf?dl=0 Poster]\]
+
+[https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-018-2092-7 An Interpretable Framework for Clustering
+Single-Cell RNA-Seq Datasets]\n
+*Jesse M. Zhang*, Jue Fan, H. Christina Fan, David Rosenfeld, and David N. Tse\n
+*BMC Bioinformatics, 2018*\n
+\[[https://github.com/jessemzhang/dendrosplit Code]\]\[[https://www.dropbox.com/s/xinym93bksqd0bp/dendrosplit_poster.pdf?dl=0 Poster]\]
+
+# [https://openreview.net/forum?id=HJBhEMbRb A Spectral Approach to Generalization and Optimization in Neural Networks]\n
+# Farzan Farnia, *Jesse Zhang*, David Tse\n
+# *OpenReview, 2018*
+
+[http://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-0970-8 Fast and accurate single-cell RNA-seq analysis by clustering of transcript-compatibility counts]\n
+Vasilis Ntranos\*, Govinda M. Kamath\*, *Jesse M. Zhang*\*, Lior Pachter and David N. Tse\n
+\*equal contributors\n
+*Genome Biology, 2016*\n
+\[[https://github.com/govinda-kamath/clustering_on_transcript_compatibility_counts Code]\]\[[https://www.dropbox.com/s/977wqrlq0lyteqq/TCC_poster.pdf?dl=0 Poster]\]
+
+[https://www.ncbi.nlm.nih.gov/pubmed/25482560 Lysine-specific demethylase 1 has dual functions as a major regulator of androgen receptor transcriptional activity]\n
+Changmeng Cai, Housheng Hansen He, Shuai Gao, Sen Chen, Ziyang Yu, Yanfei Gao, Shaoyong Chen, Mei Wei Chen, *Jesse Zhang*, Musaddeque Ahmed, Yang Wang, Eric Metzger, Roland Schüle, X. Shirley Liu, Myles Brown, and Steven P. Balk\n
+*Cell Reports, 2014*
+
+
+== Information
+
+- Room 260\nPackard Electrical Engineering Building\n350 Serra Mall\nStanford, CA 94305
+- Email: jessez@stanford.edu\n
+- Personal Website: [https://jessemzhang.com jessemzhang.com]

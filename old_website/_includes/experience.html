@@ -1,0 +1,38 @@
+<section>
+    <h4 id="experience">Some Places I've Worked At</h4>
+    
+    <div class="resume-container">
+        
+        
+        {% for job in site.jobs %}
+        
+        <div class="resume-section">
+            <div class="job-name">
+                <a href="{{ job.link }}">
+                    <img src="/assets/img/experience/{{job.logo}}">
+                </a>
+            </div>
+            <div class="job-description">
+                <div class="job-dates">
+                    {{ job.dates }}
+                </div>
+                <br>
+                <div class="job-responsibilities">
+                    {{ job.description }}
+                </div>
+            </div>
+        </div>
+        
+        {% endfor %}
+        
+    </div>
+    
+    <div class="cv-download">
+        Click <a href="../CV/Jesse_Zhang_CV.pdf">here</a> for my CV.
+    </div>
+    
+    <div class="contact-info">
+        <p><strong id="contact">Contact Me</strong> at (857) 636-9152 or jessez@stanford.edu. <br> Thanks for stopping by! </p>
+    </div>
+    
+</section>
