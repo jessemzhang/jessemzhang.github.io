@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}
+# jemdoxc: menu{MENU}{index.html}
 = Jesse M. Zhang
 
 ~~~
@@ -63,4 +63,3 @@ Changmeng Cai, Housheng Hansen He, Shuai Gao, Sen Chen, Ziyang Yu, Yanfei Gao, S
 
 - Room 260\nPackard Electrical Engineering Building\n350 Serra Mall\nStanford, CA 94305
 - Email: jessez@stanford.edu\n
-- Personal Website: [https://jessemzhang.com jessemzhang.com]
